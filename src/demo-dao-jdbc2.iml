@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/model.dao" isTestSource="false" packagePrefix="model.dao" />
+      <sourceFolder url="file://$MODULE_DIR$/model.dao.impl" isTestSource="false" packagePrefix="model.dao.impl" />
+      <sourceFolder url="file://$MODULE_DIR$/model.entities" isTestSource="false" packagePrefix="model.entities" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="demo-dao-jdbc" />
+  </component>
+</module>
