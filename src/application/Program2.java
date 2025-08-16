@@ -17,5 +17,20 @@ public class Program2 {
         for (Department department : depDao.findAll()) {
             System.out.println(department);
         }
+
+        System.out.println("\n==== TESTE 3: department insert =====");
+        Department department = new Department(null, "Music");
+        depDao.insert(department);
+        System.out.println("Insertion completed.");
+
+        System.out.println("\n==== TESTE 4: department update =====");
+        department = depDao.findById(5);
+        department.setName("Televisions");
+        depDao.update(department);
+        System.out.println("Update completed.");
+
+        System.out.println("\n==== TESTE 5: department delete =====");
+        depDao.deleteById(16);
+        System.out.println("Delete completed.");
     }
 }
